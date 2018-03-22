@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "203825443053",
+    "firebase_url": "https://flutter-project-fd216.firebaseio.com",
+    "project_id": "flutter-project-fd216",
+    "storage_bucket": "flutter-project-fd216.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203825443053:android:2427c236e3209c14",
+        "android_client_info": {
+          "package_name": "com.tradecapitalinc.mytradecapital"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "203825443053-vnl52tthusk4dsdoa0l7abv26d3h8s8k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tradecapitalinc.mytradecapital",
+            "certificate_hash": "766c23e2bcd7c90859f28a41af4a40639911995f"
+          }
+        },
+        {
+          "client_id": "203825443053-1guph5dqf1bmvvsulrsgtthcbgpulc00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5QYh40BUcagp7J8pl1lnINCP3IaObW3I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "203825443053-1guph5dqf1bmvvsulrsgtthcbgpulc00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
