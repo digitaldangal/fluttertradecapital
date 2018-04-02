@@ -2,6 +2,7 @@ part of todomvc;
 
 class MainHomeTab extends StatelessWidget {
   final GlobalKey<ScaffoldState> scaffoldKey = new GlobalKey();
+  List<BlogPost> todos;
 
   @override
    build(BuildContext context) {
@@ -45,6 +46,7 @@ class BlogList extends StatelessWidget {
         if (!snapshot.hasData) return const Text('Loading Blogs...');
         return new ListView(
           children: snapshot.data.documents.map((DocumentSnapshot document) {
+            //create a new object here
             return new Card(
               child: new Column(
                 mainAxisSize: MainAxisSize.min,

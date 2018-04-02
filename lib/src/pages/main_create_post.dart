@@ -64,6 +64,7 @@ part of todomvc;
 //  }
 //}
 
+
 class CreatePost extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -134,6 +135,7 @@ class BlogPageState extends State<BlogPage> {
     Future<Null> _addNewBlogPost() async {
 
       if (title != "" && description != "") {
+//        BlogPost newBlog = new BlogPost(title, description, _googleSignIn.currentUser.displayName);
         DateTime now = new DateTime.now().toUtc();
         Firestore.instance
             .collection('blogPosts')
@@ -146,8 +148,7 @@ class BlogPageState extends State<BlogPage> {
               'authorName': _googleSignIn.currentUser.displayName,
               'authorId': _googleSignIn.currentUser.id,
               'createdAt': now
-            }
-            );
+            });
 
 //        Navigator.of(context).pushReplacementNamed('/');
         Navigator.pop(context);

@@ -24,7 +24,9 @@ part 'pages/main_app_profile.dart';
 part 'pages/main_settings.dart';
 part 'pages/main_create_post.dart';
 part 'models/todo_item.dart';
+part 'models/BlogPostItem.dart';
 part 'util/authentication.dart';
+part 'util/database.dart';
 part 'widgets/todo_header.dart';
 part 'widgets/todo_widget.dart';
 
